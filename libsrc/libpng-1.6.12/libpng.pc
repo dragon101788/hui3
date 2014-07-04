@@ -1,0 +1,11 @@
+prefix=/home/dragon/hui/src
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include/libpng16
+
+Name: libpng
+Description: Loads and saves PNG files
+Version: 1.6.12
+Libs: -L${libdir} -lpng16
+Libs.private: -lz -lm -L/home/dragon/hui/src//lib/
+Cflags: -I${includedir}

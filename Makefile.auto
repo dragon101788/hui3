@@ -1,0 +1,33 @@
+
+dir-$(CONFIG_CONTROL_CARTOON) += ./widget/cartoon
+
+
+dir-$(CONFIG_CONTROL_LJ_LOCK) += ./widget/luo/lj_lock
+
+
+dir-$(CONFIG_CONTROL_LJ_DRAG_VERTICAL_EXPLAIN) += ./widget/luo/lj_drag_vertical_explain
+
+
+dir-$(CONFIG_CONTROL_LJ_DRAG_IMAGE) += ./widget/luo/lj_drag_image
+
+
+dir-$(CONFIG_CONTROL_LJ_SCREENSAVER) += ./widget/luo/lj_screensaver
+
+
+dir-$(CONFIG_CONTROL_RADIO_BUTTONS) +=  ./widget/radio_bottons
+
+
+dir-$(CONFIG_CONTROL_BUTTON) += ./widget/button
+
+
+dir-$(CONFIG_CONTROL_STATIC_IMAGE) += ./widget/static_image
+
+
+dir-$(CONFIG_CONTROL_DRAG_MENU) += ./widget/hu/drag_menu
+
+
+dir-$(CONFIG_CONTROL_GESTURE) += ./widget/hu/gesture
+
+
+dir-$(CONFIG_CONTROL_STATIC_TEXT) += ./widget/static_text
+
